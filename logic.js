@@ -1,3 +1,18 @@
+//INÍCIO DA DECLARAÇÃO DAS VARIÁVEIS
+var count = 0;
+var enviar = document.getElementById("gwt-debug-acquire_task_button");
+var div = document.createElement('div');
+var progresso = document.createElement('progress');
+var span = document.createElement('span');
+var span1 = document.createElement('span');
+var a = document.createElement('a');
+var a1 = document.createElement('a');
+var a2 = document.createElement('a');
+var elemento_audio = document.createElement('audio');
+var source = document.createElement('source');
+var source1 = document.createElement('source');
+//FINAL DA DECLARAÇÃO DAS VARIÁVEIS
+
 //INICIO AUDIO DIV
 div.setAttribute('id', 'audiodiv');
 document.body.appendChild(div);
